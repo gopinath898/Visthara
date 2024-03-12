@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #4c4c4c;
+}
+
+
+
+
+
+
+
+
+.container {
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mainHeading {
+    font-size: 1.56rem;
+    line-height: 32px;
+    opacity: 1;
+    font-weight: 700;
+    color: rgb(76, 76, 76);
+    text-align: center;
+}
+
+.rangeContainer {
+    position: relative;
+}
+
+.rangeContainer h5 {
+    max-width: 15rem;
+    margin: -5rem auto 0px;
+}
+
+.textContainer {
+    background: rgb(233, 247, 246);
+    padding: 0.2rem;
+    line-height: 1.8;
+    border-radius: 8px;
+    margin: 0.2rem auto 0 auto;
+    width: 86%;
+}
+
+.textContainerFont {
+    font-size: 0.8rem;
+    line-height: 20px;
+    opacity: 1;
+    font-weight: 500;
+    color: rgb(76, 76, 76);
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: unset;
+}
+
+.textContainerHeading {
+    font-size: 1rem;
+    line-height: 24px;
+    opacity: 1;
+    font-weight: 700;
+    color: rgb(76, 76, 76);
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.textContainerContent {
+    font-size: 0.8rem;
+    line-height: 20px;
+    opacity: 1;
+    font-weight: 500;
+    color: rgb(76, 76, 76);
+    text-align: left;
+    margin: 1rem 0px 0px;
+    padding: 0px;
+    letter-spacing: unset;
+}
+
+.subHeading {
+    font-size: 0.8rem;
+    line-height: 20px;
+    opacity: 1;
+    font-weight: 500;
+    color: rgb(165, 165, 165);
+    text-align: center;
+    margin: 0.5rem 0px 0px;
+    padding: 0px;
+    letter-spacing: unset;
+}
+
+.btnContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    gap: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    position: relative;
+    cursor: unset;
+    opacity: 1;
+}
+
+
+
+
+
+
+.leftBox {
+    width: 30%;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 1.5rem 2.5rem 3.9rem 3rem;
+    box-sizing: border-box;
+    /*overflow-y: auto;*/
+    margin: 1rem 0;
+}
+
+.leftBox p {
+    color: #a5a5a5;
+}
+
+
+
+
+
+/* rightBOX */
+.rightContentContainer {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+.rightBox {
+    width: 60%;
+    margin: auto;
+    background: rgb(250, 250, 250);
+    padding: 1.5rem 6rem;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.rightBoxContainer {
+    width: 100%;
+    margin: auto;
+}
+
+.rightSubHeading {
+    font-size: 1rem;
+    line-height: 24px;
+    opacity: 1;
+    font-weight: 500;
+    color: rgb(76, 76, 76);
+    text-align: left;
+    margin: 1.5rem 0px 1.5rem 0;
+    padding: 0px;
+}
+
+.rightHeading {
+    text-align: center;
+    padding: 1.25rem;
+    background-image: url('assets/scope.svg');
+    background-color: rgb(233, 239, 226);
+    background-repeat: no-repeat;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: 700;
+    color: rgb(76, 76, 76);
+    background-position: 100% 100%;
+}
+
+.rightHeading h2 {
+    font-size: 1.25rem;
+    line-height: 28px;
+    opacity: 1;
+    font-weight: 700;
+    color: rgb(76, 76, 76);
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.rightHeading h5 {
+    font-size: 1rem;
+    line-height: 24px;
+    opacity: 1;
+    font-weight: 500;
+    color: rgb(76, 76, 76);
+    text-align: left;
+    margin: 1rem 4rem 0px 0px;
+    padding: 0px;
+}
+
+
+.rightBody {
+    border: 1px solid rgb(239, 239, 239);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 2rem 1.25rem 1.25rem;
+    background: rgb(255, 255, 255);
+}
+
+.rightBody>h5 {
+    font-size: 1rem;
+    line-height: 24px;
+    opacity: 1;
+    font-weight: 700;
+    color: rgb(76, 76, 76);
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.doctorContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 10px;
+}
+
+.doctor {
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    gap: 0px 0.5rem;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    cursor: unset;
+    opacity: 1;
+    cursor: pointer;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 8px;
+    padding: 4px;
+    box-sizing: border-box;
+    margin: 4px;
+}
+
+.doctorContent {
+    display: flex;
+    flex-flow: column nowrap;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 0.3rem 0px;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    position: relative;
+    cursor: unset;
+    opacity: 1;
+}
+
+.doctorName {
+    font-size: 0.8rem;
+    line-height: 20px;
+    opacity: 1;
+    font-weight: 700;
+    color: rgb(76, 76, 76);
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: unset;
+}
+
+.doctorOtherContent {
+    font-size: 0.64rem;
+    line-height: 16px;
+    opacity: 1;
+    font-weight: 500;
+    color: rgb(76, 76, 76);
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: unset;
+}
+
+
+.docBtnContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 0px;
+    opacity: 1;
+}
+
+.docBtn {
+    display: inline;
+    background-color: rgb(231, 105, 67);
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    width: fit-content;
+    font-size: 0.875rem;
+    font-weight: 700;
+    border-radius: 2rem;
+    border: 1px solid rgb(231, 105, 67);
+    overflow: hidden;
+    letter-spacing: 0.08rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 0.75rem 2rem;
+    min-width: unset;
+    margin: auto;
+}
+
+.docBtn:hover {
+    background-color: rgb(234, 124, 91);
+    border-color: rgb(234, 124, 91);
+}
+
+
+
+
+
+
+
+
+
+
+
+.highlightHeading {
+    font-size: 0.8rem !important;
+    line-height: 20px;
+    opacity: 1;
+    font-weight: 700;
+    color: rgb(76, 76, 76);
+    text-align: left;
+    margin: 1.5rem 0px 0px 0px !important;
+    padding: 0px;
+    letter-spacing: unset;
+}
+
+.highLightContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 1rem;
+}
+
+
+.highLight {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 1rem;
+}
+
+
+.highLightText {
+    font-size: 0.8rem !important;
+    line-height: 20px;
+    opacity: 1;
+    font-weight: 500;
+    color: rgb(76, 76, 76);
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: unset;
+}
+
+.rangeContainer {
+    width: 100%;
+    height: 140px;
+    left: 28%;
+}
+
+
+
+
+
+/* Responsiveness */
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+
+    .doctorContainer,
+    .highLightContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .rangeContainer {
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 722px) {
+    .rangeContainer {
+        left: 25%;
+    }
+}
+
+
+
+@media screen and (max-width: 1010px) {
+    .rightBox {
+        padding: 1.5rem 3rem;
+    }
+
+    .leftBox {
+        padding: 0;
+    }
+
+    .rangeContainer {
+        left: 25%;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .rightBox,
+    .leftBox {
+        width: 100%;
+    }
+
+    .rightBox {
+        padding: 0;
+    }
+}

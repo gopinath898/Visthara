@@ -1,0 +1,62 @@
+[
+    {
+        "subject": "Sign Up",
+        "title": "sign up",
+        "mail_content": "<span>Welcome to My Mind Doctor!</span><p>At MMD we aim to provide you the best experience with our curated session plans, Expert psychologists from around the world and 24x7 Support.</p><p>Begin your journey by choosing from our experts here, pick a suitable plan and start taking counselling sessions to experience positive results.</p><p>We can assist you in understanding how online counselling works, choosing a therapist, selecting a plan or booking a session. You can reach out to us here:</p><a href='mailto: {{email}}'>{{email}}</a>, <a href='tel:+919596079035'>{{phone}}</a>",
+        "msg_content": "Welcome to My Mind Doctor!Welcome to My Mind Doctor! At MMD we aim to provide you the best experience with our curated session plans, Expert psychologists from around the world and 24x7 Support."
+    },
+    {
+        "subject": "First Plan Purchased",
+        "title": "first plan purchased",
+        "mail_content": "<p>Thank you for your purchase of Rs.{{amount}} at MMD. Congratulations on taking the first step towards your mental wellness journey! You have chosen an expert and picked the {{plan_name}} plan, you have {{session_count}} sessions & {{chat_days}} chat days available in your account</p><p>If you need help booking your first sessions with your chosen therapist, you can always reach out to our team for help.</p><a href='mailto: {{email}}'>{{email}}</a>, <a href='tel:+919596079035'>{{phone}}</a>",
+        "msg_content": "Thank you for your purchase of Rs.{{amount}} at MMD. Congratulations on taking the first step towards your mental wellness journey! You have chosen an expert and picked the {} plan, you have {} sessions & {} chat days available in your account."
+    },
+    {
+        "subject": "Session Booking",
+        "title": "session booking",
+        "mail_content": "<p>Hello {{user_name}}! We would like to confirm your MMD appointment. Here are the details- </p><p>Therapist Name: {{therapist_name}}</p><p>Date & Time of Appointment: {{appointment_date}}</p><p>You can join by clicking on the Join Session button below, 10 minutes before the scheduled time or log into your MMD account & go to Sessions>Join Now> in your MMD dashboard. For an effective session, make sure that you have a high-speed internet connection and a well-lit quiet spot.</p><p><a href='{{zoom_link}}'>Join Session</a></p><p>Call Helpdesk <a href='tel:+919596079035'>{{phone}}</a></p>",
+        "msg_content": "Hello {{user_name}}! We would like to confirm your MMD appointment. Here are the details- Therapist Name: {{therapist_name}}, Date & Time of Appointment: {{appointment_date}}"
+    },
+    {
+        "subject": "Intake Form Triggered",
+        "title": "intake form(user)",
+        "mail_content": "<p>Hey there! Please fill in the therapy intake form before your first session.</p><p>The objective of this form is to gather the information that your counselling therapist will need to provide effective help to you. This information is confidential and will only be shared with your therapist.</p><p><a href='{{form_link}}'>Fill Intake Form</a></p>",
+        "msg_content": "Hey there! Please fill in the therapy intake form before your first session."
+    },
+    {
+        "subject": "Session Cancellation",
+        "title": "session cancellation",
+        "mail_content": "<p>Hey {{user_name}}! Your session with {{therapist_name}} on {{appointment_date}} has been cancelled. Please visit the following link to reschedule directly from {therapist_name}’s calendar.</p><p><a href='{{theraist_calendar}}'>Reschedule Now</a></p>",
+        "msg_content": "Hey {{user_name}}! Your session with {{therapist_name}} on {{appointment_date}} has been cancelled. Please visit the following link to reschedule directly from {therapist_name}’s calendar."
+    },
+    {
+        "subject": "Upcoming Session Reminder",
+        "title": "upcoming session reminder",
+        "mail_content": "Hey {{user_name}}, this is a reminder for your upcoming session. We suggest joining a couple of minutes early so that if you face any issues, we could help troubleshoot them for you.",
+        "msg_content": "Hey {{user_name}}, this is a reminder for your upcoming session. We suggest joining a couple of minutes early so that if you face any issues, we could help troubleshoot them for you."
+    },
+    {
+        "subject": "Next Session Nudge",
+        "title": "nudge",
+        "mail_content": "<p>Hey {{user_name}}! , your next session is overdue.</p><p>Long breaks hamper progress. Please check in with your therapist from this <a href='{{theraist_calendar}}'>link</a></p>",
+        "msg_content": "Hey {{user_name}}! , your next session is overdue.</p><p>Long breaks hamper progress. Please check in with your therapist from this <a href='{{theraist_calendar}}'>link</a>"
+    },
+    {
+        "subject": "Session Booking",
+        "title": "session booked for therapist",
+        "mail_content": "<p>Hello {{therapist_name}}! You have a new booking.</p><p>Client Name: {{user_name}}</p><p>Session Date & Time: {{appointment_date}}</p><p>Login to your dashboard for more details on the client. You can join by clicking on the Join Session button below or by going to Sessions>Join Now> in your MMD dashboard 10 minutes before the scheduled time. Please make sure you have a high-speed internet connection & a well-lit quiet spot for the session.</p><p><a href='{{zoom_link}}'>Join Session</a></p><p><a href='tel:+919596079035'>Call For Assistance</a></p>",
+        "msg_content": "Hello {{therapist_name}}! You have a new booking. Client Name: {{user_name}}. Session Date & Time: {{appointment_date}}"
+    },
+    {
+        "subject": "Intake Form Filled",
+        "title": "intake form for therapist",
+        "mail_content": "<p>Hey {{therapist_name}}! Your new client - {{user_name}} has filled up the client intake form. Please take a look at the responses before the upcoming session on {{appointment_date}} for the case background. This information was shared privately between you & your client.</p><p><a href='{{theraist_dashboard}}'>View Client Response</a></p>",
+        "msg_content": "Hey {{therapist_name}}! Your new client - {{user_name}} has filled up the client intake form. Please take a look at the responses before the upcoming session on {{appointment_date}} for the case background. This information was shared privately between you & your client."
+    },
+    {
+        "subject": "Session Cancellation",
+        "title": "session cancelled for therapist",
+        "mail_content": "<p>Your scheduled session has been cancelled. Here are the details -</p><p>Client Name : {{user_name}}</p><p>Session Time : {{appointment_date}}</p><p>Status : Cancelled</p><p>We will let you know once the session has been rescheduled.</p>",
+        "msg_content": "Your scheduled session has been cancelled. Here are the details - Client Name : {{user_name}}. Session Time : {{appointment_date}}"
+    }
+]
